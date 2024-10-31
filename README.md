@@ -32,10 +32,10 @@ Usage
 
 Run the script using the following command format:
 
-bash
+```bash
 
 python generador_contrasenas.py -l LENGTH [-u] [-lc] [-n] [-s]
-
+```
 Arguments
 
     -l or --length: Required. Specifies the length of the password (integer).
@@ -53,11 +53,12 @@ bash
 python generador_contrasenas.py -l 12 -u -lc -n -s
 
 Code Structure
+```py
 
     get_character_set(include_upper, include_lower, include_numbers, include_special): Constructs the character set based on user preferences.
     generate_password(length, character_set): Generates a random password using the specified length and character set.
     main(): Handles user input, parses command-line arguments, and prints the generated password.
-
+```
 License
 
 This project is open-source and available for personal use and modification.
