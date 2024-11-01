@@ -34,7 +34,7 @@ Run the script using the following command format:
 
 ```bash
 
-python generador_contrasenas.py -l LENGTH [-u] [-lc] [-n] [-s]
+python main.py -l LENGTH [-u] [-lc] [-n] [-s]
 ```
 Arguments
 
